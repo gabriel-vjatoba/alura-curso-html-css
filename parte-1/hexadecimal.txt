@@ -1,0 +1,27 @@
+hexadecimal: dicionario numério + ABCDEF -> 0123456789ABCDEF
+RGB -> Red Green Blue
+
+# _ _ _ _ _ _
+
+0 = ausência de cor -> #000000 BRANCO
+F = máximo de cor -> #FFFFFF PRETO
+
+
+Vermelho -> #FF0000
+Verde -> #00FF00
+Azul -> #0000FF
+
+
+RGB 0,1,2,3,...255
+
+0 = ausência
+255 = máximo
+
+BRANCO -> rgb(255,255,255)
+AZUL -> rgb(0,0,255)
+
+
+Modos de inserir vermelho no CSS:
+1. Red
+2. #FF0000
+3. rgb(255,0,0)

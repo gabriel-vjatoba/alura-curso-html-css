@@ -1,0 +1,19 @@
+body {
+    background-color:darkgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+em {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
