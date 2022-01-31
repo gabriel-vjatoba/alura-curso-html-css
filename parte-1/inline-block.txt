@@ -1,0 +1,7 @@
+Display: Block -> Bloqueia o conteúdo da linha, ocupa width 100% (mesmo que o conteúdo não ocupe), quebra a linha.
+
+img -> Não é conteúdo Block
+
+Display: Inline -> Não é permitido alterar espaçamento interno e externo, não há quebra de linha.
+
+Inline e Block -> Bloqueia uma largura, mas a largura é fixa. Permitido alterar no espaçamento.

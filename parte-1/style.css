@@ -1,12 +1,17 @@
-body {
-    background-color:darkgray;
-}
-
-.banner {
+#banner-barbearia {
     width: 100%;
 }
 
-h1 {
+.principal {
+    background-color: darkgrey;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
     text-align: center;
 }
 
@@ -20,4 +25,26 @@ p {
 
 em strong {
     color: red;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    /*Em css, o conteúdo é alinhado pela linha debaixo
+      Para alterar: */
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.img-beneficios {
+    width: 50%;
 }
