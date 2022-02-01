@@ -41,6 +41,13 @@ nav a {
     text-align: center;
     width: 30%;
     vertical-align: top;
+    margin: 0 1.5%;
+    /* O browser por padrão soma o padding com o width */
+    padding: 30px 20px;
+    /* O padding não soma com o width de 30% mas sim faz parte dele 
+    usando o box-sizing: border-box */
+    box-sizing: border-box;
+
 }
 
 .produtos h2 {
@@ -56,4 +63,5 @@ nav a {
 .produto-preco {
     font-size: 22px;
     font-weight: bold;
+    margin-top: 30px;
 }
